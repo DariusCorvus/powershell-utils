@@ -1,3 +1,9 @@
+<#
+This is a free script that rebuilds the GNU coreutil touch in powershell 7.
+
+Written by DariusCorvus.
+#>
+
 function Update-LastWriteTime {
   Param($File)
   if (Test-Path -Path $File) {
